@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Transaksi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">Alex Motor</div>
+
+    <div class="menu">
+        <a href="index.html">Produk</a>
+        <a href="transaksi.html">Transaksi</a>
+        <a href="tentang.html">Tentang</a>
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <h4>Panduan Pengisian</h4>
+            <ul>
+                <li>Isi nama lengkap</li>
+                <li>Pastikan nama produk sesuai daftar</li>
+                <li>Jumlah minimal 1</li>
+                <li>Pilih metode pembayaran yang sesuai</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Formulir Transaksi</h2>
+            <form>
+                <label>Nama Pembeli:</label><br>
+                <input type="text" name="nama" required><br><br>
+
+                <label>Nama Produk:</label><br>
+                <input type="text" name="produk" required><br><br>
+
+                <label>Jumlah:</label><br>
+                <input type="number" name="jumlah" min="1" required><br><br>
+
+                <label>Metode Pembayaran:</label><br>
+                <select name="pembayaran" required>
+                    <option value="">-- Pilih --</option>
+                    <option>Transfer Bank</option>
+                    <option>COD</option>
+                    <option>E-Wallet</option>
+                </select><br><br>
+
+                <input type="submit" value="Kirim Pesanan">
+            </form>
+        </div>
+
+        <div class="right">
+            <h4>Butuh Bantuan?</h4>
+            <p>Hubungi kami:</p>
+            <ul>
+                <li>Live Chat: 08.00–00.00</li>
+                <li>Email    : alexmotor01@gmail.com</li>
+            </ul>
+            <hr>
+            <h4>Jam Operasional</h4>
+            <p>Senin–Sabtu<br>08.00 – 00.00 WIB</p>
+        </div>
+    </div>
+
+    <div class="footer">© Alex Motor</div>
+</div>
+</body>
+</html>
